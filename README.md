@@ -1,5 +1,5 @@
 # task
-1. Download files
+1. Download files calculation.py and test_calculation.py
 2. In terminal:
   ```
   2.1 Run by default arguments: python test_calculation.py
