@@ -42,7 +42,7 @@ if __name__ == '__main__':
     parser.add_argument('-num2', dest='num2', type=int, required=False)
 
     args, sys.argv[1:] = parser.parse_known_args(sys.argv[1:])
-    first_num = args.num1 or 3
+    first_num = 0 if args.num1 == 0 else 3
     second_num = args.num2 or 0
     aetest.main(num1=first_num, num2=second_num)
 
